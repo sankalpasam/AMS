@@ -4,7 +4,7 @@ import mysql.connector
 class DBAccess:
     def getConnection():
         connection = mysql.connector.connect(
-            host="166.62.10.46",
+            host="localhost",
             database="testingcmms",
             user="amsadmin",
             password="amsadmin"
